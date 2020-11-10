@@ -14,6 +14,19 @@
 		0091C3D82401C0F80052F9A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0091C3D62401C0F80052F9A8 /* LaunchScreen.storyboard */; };
 		0091C3E32401C0F90052F9A8 /* iOSApp_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C3E22401C0F90052F9A8 /* iOSApp_MVVMTests.swift */; };
 		0091C3EE2401C0F90052F9A8 /* iOSApp_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C3ED2401C0F90052F9A8 /* iOSApp_MVVMUITests.swift */; };
+		0091C4002401C3330052F9A8 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C3FF2401C3330052F9A8 /* ItemViewModel.swift */; };
+		0091C4022401C3410052F9A8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4012401C3410052F9A8 /* Item.swift */; };
+		0091C4042401C3500052F9A8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4032401C3500052F9A8 /* ItemCell.swift */; };
+		0091C4062401C3670052F9A8 /* ItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4052401C3670052F9A8 /* ItemsController.swift */; };
+		0091C4092401C3A80052F9A8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4082401C3A80052F9A8 /* Service.swift */; };
+		0091C40E2402D9020052F9A8 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C40D2402D9020052F9A8 /* CustomNavigationController.swift */; };
+		0091C4112402E75B0052F9A8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4102402E75B0052F9A8 /* UIColor.swift */; };
+		0091C4132402EC380052F9A8 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4122402EC380052F9A8 /* ItemDetail.swift */; };
+		0091C4152402F0380052F9A8 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4142402F0380052F9A8 /* APIError.swift */; };
+		0091C4172403031B0052F9A8 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C4162403031B0052F9A8 /* APIConstants.swift */; };
+		0091C41B2403121C0052F9A8 /* ItemDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C41A2403121C0052F9A8 /* ItemDetailController.swift */; };
+		0091C41D240332EB0052F9A8 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C41C240332EB0052F9A8 /* ItemDetailView.swift */; };
+		0091C42124033E5B0052F9A8 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091C42024033E5B0052F9A8 /* ItemDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		0091C3E92401C0F90052F9A8 /* iOSApp-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOSApp-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0091C3ED2401C0F90052F9A8 /* iOSApp_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp_MVVMUITests.swift; sourceTree = "<group>"; };
 		0091C3EF2401C0F90052F9A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0091C3FF2401C3330052F9A8 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		0091C4012401C3410052F9A8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0091C4032401C3500052F9A8 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		0091C4052401C3670052F9A8 /* ItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsController.swift; sourceTree = "<group>"; };
+		0091C4082401C3A80052F9A8 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0091C40D2402D9020052F9A8 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		0091C4102402E75B0052F9A8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0091C4122402EC380052F9A8 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		0091C4142402F0380052F9A8 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		0091C4162403031B0052F9A8 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		0091C41A2403121C0052F9A8 /* ItemDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailController.swift; sourceTree = "<group>"; };
+		0091C41C240332EB0052F9A8 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		0091C42024033E5B0052F9A8 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +123,19 @@
 		0091C3CC2401C0F70052F9A8 /* iOSApp-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				0091C40F2402E7390052F9A8 /* Extensions */,
+				0091C3FE2401C2880052F9A8 /* ViewModel */,
+				0091C3FD2401C2700052F9A8 /* Model */,
+				0091C3FC2401C26E0052F9A8 /* View */,
+				0091C3FB2401C26C0052F9A8 /* Controller */,
+				0091C4072401C3770052F9A8 /* Service */,
 				0091C3CD2401C0F70052F9A8 /* AppDelegate.swift */,
+				0091C40D2402D9020052F9A8 /* CustomNavigationController.swift */,
+				0091C3D92401C0F80052F9A8 /* Info.plist */,
 				0091C3CF2401C0F70052F9A8 /* ViewController.swift */,
 				0091C3D12401C0F70052F9A8 /* Main.storyboard */,
 				0091C3D42401C0F80052F9A8 /* Assets.xcassets */,
 				0091C3D62401C0F80052F9A8 /* LaunchScreen.storyboard */,
-				0091C3D92401C0F80052F9A8 /* Info.plist */,
 			);
 			path = "iOSApp-MVVM";
 			sourceTree = "<group>";
@@ -123,6 +156,60 @@
 				0091C3EF2401C0F90052F9A8 /* Info.plist */,
 			);
 			path = "iOSApp-MVVMUITests";
+			sourceTree = "<group>";
+		};
+		0091C3FB2401C26C0052F9A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0091C4052401C3670052F9A8 /* ItemsController.swift */,
+				0091C41A2403121C0052F9A8 /* ItemDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0091C3FC2401C26E0052F9A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0091C4032401C3500052F9A8 /* ItemCell.swift */,
+				0091C41C240332EB0052F9A8 /* ItemDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0091C3FD2401C2700052F9A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0091C4012401C3410052F9A8 /* Item.swift */,
+				0091C4122402EC380052F9A8 /* ItemDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0091C3FE2401C2880052F9A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0091C3FF2401C3330052F9A8 /* ItemViewModel.swift */,
+				0091C42024033E5B0052F9A8 /* ItemDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0091C4072401C3770052F9A8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0091C4082401C3A80052F9A8 /* Service.swift */,
+				0091C4142402F0380052F9A8 /* APIError.swift */,
+				0091C4162403031B0052F9A8 /* APIConstants.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0091C40F2402E7390052F9A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0091C4102402E75B0052F9A8 /* UIColor.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +343,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0091C4152402F0380052F9A8 /* APIError.swift in Sources */,
+				0091C42124033E5B0052F9A8 /* ItemDetailViewModel.swift in Sources */,
+				0091C4022401C3410052F9A8 /* Item.swift in Sources */,
+				0091C41D240332EB0052F9A8 /* ItemDetailView.swift in Sources */,
+				0091C4092401C3A80052F9A8 /* Service.swift in Sources */,
 				0091C3D02401C0F70052F9A8 /* ViewController.swift in Sources */,
+				0091C4132402EC380052F9A8 /* ItemDetail.swift in Sources */,
 				0091C3CE2401C0F70052F9A8 /* AppDelegate.swift in Sources */,
+				0091C4112402E75B0052F9A8 /* UIColor.swift in Sources */,
+				0091C40E2402D9020052F9A8 /* CustomNavigationController.swift in Sources */,
+				0091C4172403031B0052F9A8 /* APIConstants.swift in Sources */,
+				0091C4002401C3330052F9A8 /* ItemViewModel.swift in Sources */,
+				0091C41B2403121C0052F9A8 /* ItemDetailController.swift in Sources */,
+				0091C4062401C3670052F9A8 /* ItemsController.swift in Sources */,
+				0091C4042401C3500052F9A8 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
