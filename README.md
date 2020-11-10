@@ -8,11 +8,6 @@ This app is the result of my studies using MVVM, JSON and Codable protocol. It i
 * Click in an item of the list will show his details.
 * Organise and comment the code. (TODO)
 
-## Pictures
-
-<img src="oooo" width=300>
-<img src="oooo" width=300>
-
 ## License
 
-This project is licensed under the [MIT License](oooo)
+This project is licensed under the [MIT License](https://github.com/inaldor/iOSApp-MVVM/blob/master/LICENSE)
